@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik";
+list-style: none;
+text-decoration: none;
+}
+.contianer{
+    width: 100%;
+}
+nav{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin-top: 50px ;
+    justify-content: space-between;
+}
+nav ul {
+    gap: 60px ;
+    display: flex;
+    align-items: center;
+}
+nav ul a {
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 18px ;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #363853;
+    transition: 0.5s;
+    text-shadow: 5px 5px 5px #363853;
+}
+nav ul a:hover{
+    text-shadow: 5px 5px 5px #ff6838;
+    color: #ff6838;
+}
+
+.btn{
+    text-shadow: none;
+    padding: 15px 27px;
+    background-color: #ff6838;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px 22px 40px 0px #ff683830;
+}
+
+.btn:hover{
+    color: #ff4d00;
+    background-color: white;
+    border: 3px solid #ff4d00;
+}
+
+.list{
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.first-content{
+    width: 530px;
+    margin-left: 10%;
+}
+
+.first-title{
+    font-weight: 500;
+    font-size: 66px;
+}
+
+.first-title span{
+    color: #ff4d00;
+}
+
+.fisrt-text{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.fisrt-button{
+    padding:10px 10px 10px 10px ;
+    background-color: #ff4d00;
+    margin-top: 30px;
+    border-radius: 10px;
+}
